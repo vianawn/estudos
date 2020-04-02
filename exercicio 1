@@ -1,0 +1,4 @@
+produto = input ("Qual produto você quer vender?")
+valor_produto = float (input("Qual valor do produto que você quer revender?"))
+valor_percente = valor_produto * 0.80 + valor_produto
+print ("Valor de Revenda para o produto em reais: " , produto , valor_percente)
